@@ -1,0 +1,24 @@
+.banner {
+    color: #fff;
+    background-image: url('/public/img/banner.jpg');
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner:before{
+    content: '';
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    background: black;
+    opacity: 0.3;
+}
+
+.title {
+    padding-top: 15vh;
+}
+
+.title h2{
+    font-size: 5vh;
+}

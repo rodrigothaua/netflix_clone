@@ -1,11 +1,16 @@
-import Header from "../../components/Header"
+import Header from "../../components/Header/Header"
+import Body from "../../components/Body"
+import Banner from "../../components/Banner"
 
 function Home() {
     return (
         <div className="app">
             <Header />
 
-            <h1>Você está na página principal do site</h1>
+            <div>
+                <Banner />
+                <Body />
+            </div>
         </div>
     )
 }
